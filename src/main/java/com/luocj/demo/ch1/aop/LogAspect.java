@@ -1,12 +1,10 @@
-package com.luocj.demo.chi1.aop;
+package com.luocj.demo.ch1.aop;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Method;
@@ -14,7 +12,7 @@ import java.lang.reflect.Method;
 @Aspect
 @Component
 public class LogAspect {
-    @Pointcut("@annotation(com.luocj.demo.chi1.aop.Action)")
+    @Pointcut("@annotation(com.luocj.demo.ch1.aop.Action)")
     public void annotationPointCut(){};
 
     @Before("annotationPointCut()")
@@ -25,7 +23,7 @@ public class LogAspect {
         System.out.println("注解式拦截 "+ action.name());
     }
 
-    @Before("execution(* com.luocj.demo.chi1.aop.DemoMethodService.*(..))")
+    @Before("execution(* com.luocj.demo.ch1.aop.DemoMethodService.*(..))")
     public void before(JoinPoint joinPoint){
         MethodSignature signature =(MethodSignature) joinPoint.getSignature();
         Method method = signature.getMethod();

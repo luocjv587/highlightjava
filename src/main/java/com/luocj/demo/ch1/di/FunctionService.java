@@ -1,4 +1,4 @@
-package com.luocj.demo.chi1.di;
+package com.luocj.demo.ch1.di;
 
 import org.springframework.stereotype.Service;
 

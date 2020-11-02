@@ -1,8 +1,7 @@
-package com.luocj.demo.chi1.disc;
+package com.luocj.demo.ch1.javaconfig;
 
-public class SgtPeppers implements CompactDisc {
-    @Override
-    public void play() {
+public class BaseService {
+    public void doIt(){
         String title = "Sgt.Pepper's Lonely Hearts Club Band";
         String artists = "The Beatles";
         System.out.println("Playing " + title + " By " + artists);

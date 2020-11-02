@@ -1,4 +1,4 @@
-package com.luocj.demo.chi1.javaconfig;
+package com.luocj.demo.ch1.javaconfig;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

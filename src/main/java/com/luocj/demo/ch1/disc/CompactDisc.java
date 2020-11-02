@@ -1,4 +1,4 @@
-package com.luocj.demo.chi1.disc;
+package com.luocj.demo.ch1.disc;
 
 public interface CompactDisc {
     void play();

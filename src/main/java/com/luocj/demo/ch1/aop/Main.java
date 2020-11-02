@@ -1,4 +1,4 @@
-package com.luocj.demo.chi1.aop;
+package com.luocj.demo.ch1.aop;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

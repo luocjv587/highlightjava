@@ -1,4 +1,4 @@
-package com.luocj.demo.chi1.disc;
+package com.luocj.demo.ch1.disc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

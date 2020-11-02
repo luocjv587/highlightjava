@@ -1,4 +1,4 @@
-package com.luocj.demo.chi1.disc;
+package com.luocj.demo.ch1.disc;
 
 public class CDPlayer {
     private CompactDisc compactDisc;
